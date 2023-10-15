@@ -1,5 +1,6 @@
+
 <script lang="ts">
     import Time from "svelte-time";
-</script>
+  </script>
 
-<Time timestamp={new Date()} />
+<Time timestamp={new Date()} format="dddd D MMMM YYYY"/>
